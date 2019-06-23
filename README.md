@@ -8,6 +8,10 @@ This program watches over a directory and returns the N top ranked files for a g
 ### Dependencies
 In order to watch over a directory TFIDF uses the watchdog module.
 
+### Installation
+`$ python setup.py install`
+This will add tfidf script to PATH. In OSX/UNIX it will be added to /usr/local/bin
+
 ### Usage
 `$ python tfidf.py -d dir -n N -p P -t "terms"`
 
