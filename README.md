@@ -1,5 +1,5 @@
-![Python 2.7](https://img.shields.io/badge/python-2.7-blue.svg)
 # TFIDF 
+![Python 2.7](https://img.shields.io/badge/python-2.7-blue.svg)
 
 This program watches over a directory and returns the N top ranked files for a given query string.
 
