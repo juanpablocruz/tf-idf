@@ -17,6 +17,7 @@ In order to watch over a directory TFIDF uses the watchdog module.
 
 ### Installation
 `$ python setup.py install`
+
 This will add tfidf script to PATH. In OSX/UNIX it will be added to /usr/local/bin
 
 ### Usage
