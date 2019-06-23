@@ -5,6 +5,13 @@ This program watches over a directory and returns the N top ranked files for a g
 ### Algorithm
 >Term Frequency - Inverse Document Frequency is an algorithm for computing the relevance of a word in a file against itself and the corpus of all the others files in the directory.
 
+The time complexity in the worst case is:
+- <img src="https://latex.codecogs.com/gif.latex?O(n^3)\text\ On\ single\ thread" /> 
+- <img src="https://latex.codecogs.com/gif.latex?O(n^2)\text\ On\ multithread" /> 
+assuming there are the same number of terms as files and words in files
+
+And the space is <img src="https://latex.codecogs.com/gif.latex?O(2n)" /> as an array and a dict of files are stored.
+
 ### Dependencies
 In order to watch over a directory TFIDF uses the watchdog module.
 
